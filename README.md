@@ -1,5 +1,7 @@
 deployed app [here](https://intro-component-with-sign-up-form-lovat-ten.vercel.app/)
 
+frontend mentor report [here](https://www.frontendmentor.io/solutions/introcomponentwithsignupform-lSB-8p-BW/report)
+
 # Frontend Mentor - Intro component with sign up form
 
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
