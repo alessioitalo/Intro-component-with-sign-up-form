@@ -31,14 +31,14 @@
         <div class="banner"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
 
         <div class="form-box">
-          <form class="contact-form" action="index.html" name="form" method="post">
-            <input class="form-inputs" type="text" name="name" id="fname" onfocusout="validateFirstName()" placeholder="First Name" autocomplete="off"><br>
+          <form class="contact-form" aria-label="contact form" action="index.html" name="form" method="post">
+            <input class="form-inputs" type="text" aria-label="first name field" name="name" id="fname" onfocusout="validateFirstName()" placeholder="First Name" autocomplete="off"><br>
             <span id='fnamespan' class='err-span'>First name must be at least 2 characters long.</span>
-            <input class="form-inputs" type="text" name="lastName" id="lname" onfocusout="validateLastName()" placeholder="Last Name" autocomplete="off"><br>
+            <input class="form-inputs" type="text" aria-label="last name field" name="lastName" id="lname" onfocusout="validateLastName()" placeholder="Last Name" autocomplete="off"><br>
             <span id='lnamespan' class='err-span'>Last name must be at least 2 characters long.</span>
-            <input class="form-inputs" type="email" name="email" id="mail" onfocusout="validateEmail()" placeholder="Email Address" autocomplete="off"><br>
+            <input class="form-inputs" type="email" aria-label="email field" name="email" id="mail" onfocusout="validateEmail()" placeholder="Email Address" autocomplete="off"><br>
             <span id='mailspan' class='err-span'>You must enter a valid email address.</span>
-            <input class="form-inputs" type="password" name="password" id="pwd" onfocusout="validatePassword()" placeholder="Password" autocomplete="off"><br>
+            <input class="form-inputs" type="password" aria-label="password field" name="password" id="pwd" onfocusout="validatePassword()" placeholder="Password" autocomplete="off"><br>
             <span id='pwdspan' class='err-span'>Your password must be between 8 and 30 characters.</span>
             <button type="submit" onclick="validateForm()" name="submit">CLAIM YOUR FREE TRIAL</button>
           </form>
